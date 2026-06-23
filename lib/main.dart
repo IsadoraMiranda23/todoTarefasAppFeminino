@@ -7,8 +7,8 @@ import 'blocs/todo_bloc/todo_bloc.dart';
 import 'repositories/api_repository.dart';
 import 'screens/login_screen.dart';
 import 'screens/register_screen.dart';
-import 'screens/home_screen.dart';
 import 'theme/app_theme.dart';
+import 'screens/main_screen.dart'; 
 
 
 void main() {
@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
           routes: {
             '/login': (_) => const LoginScreen(),
             '/register': (_) => const RegisterScreen(),
-            '/home': (_) => const HomeScreen(),
+            '/home':(_) => const MainScreen(),
           },
         ),
       ),
